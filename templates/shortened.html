@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shortened URL</title>
+</head>
+<body>
+    <h1>Shortened URL:</h1>
+    <p>Your shortened URL is: <a href="{{ url_for('redirect_to_url', short_code=short_url) }}">{{ url_for('redirect_to_url', short_code=short_url) }}</a></p>
+</body>
+</html>
